@@ -36,7 +36,7 @@
 
 /* Header */
 header {
-  background-image: url(media/pattern-title.jpg);
+  background-image: url(pattern-title.jpg);
   background-size: 100%;
   opacity: 0.8;
   color: var(--font-white);
@@ -50,7 +50,7 @@ h1 {
 
 /* Navigation Bar */
 .nav-bar {
-  background-image: url(media/pattern-nav-bar.jpg);
+  background-image: url(pattern-nav-bar.jpg);
   background-size: 100%;
   opacity: 0.8;
   width: 100%;
