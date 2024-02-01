@@ -1,0 +1,170 @@
+/* Color Guide */
+:root {
+  --classic-black: #000;
+  --classic-white: #fff;
+  --classic-main-color: #363020;
+  --classic-altern-color: #605c4e;
+  --classic-third-color: #a49966;
+  --classic-last-color: #c7c7a6;
+  --youth-main-color: #ff499e;
+  --youth-altern-color: #d264b6;
+  --youth-third-color: #a480cf;
+  --youth-last-color: #779be7;
+  --pokemon-main-color: #ffcb05;
+  --pokemon-altern-color: #f6882b;
+  --pokemon-third-color: #7dafa5;
+  --pokemon-last-color: #7cccee;
+}
+.classic-text-black {
+  color: var(--classic-black);
+}
+.classic-text-white {
+  color: var(--classic-white);
+}
+.classic-main {
+  background-color: var(--classic-main-color);
+}
+.classic-altern {
+  background-color: var(--classic-altern-color);
+}
+.classic-third {
+  background-color: var(--classic-third-color);
+}
+.classic-last {
+  background-color: var(--classic-last-color);
+}
+.youth-main {
+  background-color: var(--youth-main-color);
+}
+.youth-altern {
+  background-color: var(--youth-altern-color);
+}
+.youth-third {
+  background-color: var(--youth-third-color);
+}
+.youth-last {
+  background-color: var(--youth-last-color);
+}
+.pokemon-main {
+  background-color: var(--pokemon-main-color);
+}
+.pokemon-altern {
+  background-color: var(--pokemon-altern-color);
+}
+.pokemon-third {
+  background-color: var(--pokemon-third-color);
+}
+.pokemon-last {
+  background-color: var(--pokemon-last-color);
+}
+/* Text Styles */
+.font-h1 {
+  font-size: 4em;
+  font-weight: 800;
+  padding: 0.35em;
+}
+.font-h2 {
+  font-size: 3.2em;
+  font-weight: 500;
+  padding: 0.25em;
+}
+.font-h3 {
+  font-size: 2.7em;
+  font-weight: 400;
+  padding: 0.2em;
+}
+.font-h4 {
+  font-size: 2em;
+  font-weight: 400;
+  padding: 0.2em;
+}
+.font-p {
+  font-size: 1.2em;
+  font-weight: 350;
+  padding: 0.15em;
+}
+/* Fonts Style */
+.font-merriweather-reg {
+  font-family: "Merriweather", Times, serif;
+  font-style: normal;
+}
+.font-merriweather-ita {
+  font-family: "Merriweather", Times, serif;
+  font-style: italic;
+}
+.font-tinos-reg {
+  font-family: "Tinos", Times, serif;
+  font-style: normal;
+}
+.font-tinos-ita {
+  font-family: "Tinos", Times, serif;
+  font-style: italic;
+}
+.font-narrow-reg {
+  font-family: "Archivo Narrow", Helvetica, sans-serif;
+  font-style: normal;
+}
+.font-narrow-ita {
+  font-family: "Archivo Narrow", Helvetica, sans-serif;
+  font-style: italic;
+}
+.font-barlow-reg {
+  font-family: "Barlow Condensed", Helvetica, sans-serif;
+  font-style: normal;
+}
+.font-barlow-ita {
+  font-family: "Barlow Condensed", Helvetica, sans-serif;
+  font-style: italic;
+}
+.font-syne-reg {
+  font-family: "Syne Mono", monospace;
+}
+.font-honk-reg {
+  font-family: "Honk", system-ui;
+}
+.font-vibes-reg {
+  font-family: "Great Vibes", cursive;
+}
+/* Text Decoration */
+.text-center {
+  text-align: center;
+}
+.text-underline {
+  text-decoration: underline;
+}
+/* Style Guide HTML */
+.div-contain {
+  border: 1px solid black;
+  margin: 1em 2em;
+  padding: 2em 1em;
+  border-radius: 15px;
+  box-shadow: 4px -4px 5px gray;
+}
+.div-contain li {
+  list-style: inside;
+  padding-left: 3em;
+}
+.div-color-block {
+  display: flex;
+  justify-content: space-between;
+}
+.div-color {
+  width: 24%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 3px -3px 5px gray;
+}
+/* Footer */
+.footer ul {
+  text-align: center;
+}
+.footer ul li {
+  display: inline;
+}
+.footer-media img {
+  width: 35px;
+}
+.font-size-footer {
+  font-size: 0.8em;
+}
