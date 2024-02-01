@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+  <title>Challenge: My Own Cheat Sheet for Codecademy</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="top-index" class="font-family-title font-size-title center font-weight-bold">Basics for a Full-Stack
+      Engineer</h1>
+  </header>
+  <nav>
+    <div class="nav-bar">
+      <ul class="font-family-title font-weight-bold">
+        <li><a href="#html-index">HTML</a></li>
+        <li><a href="#css-index">CSS</a></li>
+        <li><a href="#js-index">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <h2 id="html-index" class="font-family-title font-size-subtitle center">Fundamentals of HTML</h2>
+    <p class="font-family-text font-size-regular">HTML, which stands for HyperText Markup Language, is the standard
+      language used to create web pages. It was
+      created by Tim Berners-Lee in 1991 as a way to share scientific documents online at CERN (European Organization
+      for Nuclear Research). Since then, it has evolved to become the foundational pillar of the modern web.</p>
+
+    <p class="font-family-text font-size-regular">The basic structure of an HTML page consists of elements or tags that
+      enclose content and give it meaning. These
+      elements are formed by an opening tag, the content, and a closing tag.</p>
+    <h2 class="font-family-title font-size-subtitle center">HTML Tags</h2>
+    <p class="font-family-text font-size-regular">
+    <div class="table-content">
+      <table class="font-family-text font-size-regular">
+        <colgroup>
+          <col span="1">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th colspan="2">Semantic Tags</th>
+          </tr>
+          <tr>
+            <td>header</td>
+            <td>Contains elements such as a website's logo, page title, main navigation bar, or other important
+              identification or introductory elements.</td>
+          </tr>
+          <tr>
+            <td>nav</td>
+            <td>It is used to group links to other pages within the website, such as navigation menus, lists of links to
+              important sections of the site, or any other primary navigation element.</td>
+          </tr>
+          <tr>
+            <td>section</td>
+            <td>It is used to divide content into distinct and meaningful parts, such as chapters, topics, or any other
+              type of content that can be considered a separate unit within the page.</td>
+          </tr>
+          <tr>
+            <td>article</td>
+            <td>Is used to define standalone, self-contained content that can exist on its own and be reusable in
+              different contexts. It is typically used for blog posts, news articles, forum posts, or any other type of
+              content that is complete in itself and does not need to be within another section of the page.</td>
+          </tr>
+          <tr>
+            <td>aside</td>
+            <td>Include additional information such as sidebars, notes, advertisements, related links, or other elements
+              that complement the main content but are not essential parts of it.</td>
+          </tr>
+          <tr>
+            <td>footer</td>
+            <td>It typically contains contact information, links to important pages, copyright information, attribution
+              information, or any other content that is desired to be displayed at the bottom of all pages of the
+              website.</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="font-family-text font-size-regular">
+        <colgroup>
+          <col span="1">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th colspan="2">Tables</th>
+          </tr>
+          <tr>
+            <td>table</td>
+            <td>Define a table on a webpage. It represents tabular data organized into rows and columns.</td>
+          </tr>
+          <tr>
+            <td>tr</td>
+            <td>Define a row within a table. It represents a single horizontal row of cells.</td>
+          </tr>
+          <tr>
+            <td>td</td>
+            <td>Define data cells within a table row. It represents individual cells containing data.</td>
+          </tr>
+          <tr>
+            <td>th</td>
+            <td>Define header cells within a table row. It represents cells that contain header information, typically
+              used to label columns or rows.</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="font-family-text font-size-regular">
+        <colgroup>
+          <col span="1">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th colspan="2">Headers and Text</th>
+          </tr>
+          <tr>
+            <td>h1</td>
+            <td>It is used to define the most important heading on a webpage. It typically represents the main title or
+              heading of the page and is displayed in a larger and bolder font compared to other headings.</td>
+          </tr>
+          <tr>
+            <td>h2, h3, h4, h5, h6</td>
+            <td>It is used for section titles or headings that are less important in order than the main heading. The h6
+              tag is the less important, h2 the most important of this group.</td>
+          </tr>
+          <tr>
+            <td>p</td>
+            <td>Define paragraphs of text on a webpage. It is used to separate blocks of text into distinct paragraphs,
+              with each paragraph typically representing a single idea or topic.</td>
+          </tr>
+          <tr>
+            <td>blockquote</td>
+            <td>Define a block quotation on a webpage. It is used to offset longer quotations from the main text and is
+              typically displayed with an indentation or different styling to distinguish it from regular text.</td>
+          </tr>
+          <tr>
+            <td>cite</td>
+            <td>Define the title of a work (such as a book, article, or webpage) that is being referenced within a block
+              of text. It is typically used to provide proper attribution to the original source of the quoted material.
+            </td>
+          </tr>
+          <tr>
+            <td>span</td>
+            <td>Apply styling or to group inline elements within a block of text without changing the structure of the
+              text. It is commonly used with CSS to apply styles to specific sections of text or to group elements for
+              scripting purposes.</td>
+          </tr>
+          <tr>
+            <td>br</td>
+            <td>Insert a line break within a block of text. Unlike other HTML elements, does not require a closing tag
+              and is self-closing. It is typically used to create line breaks within addresses, poems, or other text
+              where line breaks are significant.</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+    </p>
+    <p><a href="#top-index" class="font-family-text font-size-regular">Back to top</a></p>
+  </main>
+  <main>
+    <h2 id="css-index" class="font-family-title font-size-subtitle center">Fundamentals of CSS</h2>
+    <p class="font-family-text font-size-regular">Cascading Style Sheets (CSS) is a stylesheet language used to describe
+      the presentation of a document written in
+      HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+    <hr>
+    <h2 class="font-family-title font-size-subtitle center">CSS Selectors</h2>
+    <p class="font-family-text font-size-regular">In CSS, selectors are used to target the HTML elements on our web
+      pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained
+      precision when selecting elements to style.</p>
+    <hr>
+    <h2 class="font-family-title font-size-subtitle center">The Box Model</h2>
+    <p class="font-family-text font-size-regular">Everything in CSS has a box around it, and understanding these boxes
+      is key to being able to create more complex layouts with CSS, or to align items with other items.</p>
+    <p class="font-family-text font-size-regular">In CSS we have several types of boxes that generally fit into the
+      categories of block boxes and inline boxes. The type refers to how the box behaves in terms of page flow and in
+      relation to other boxes on the page. Boxes have an inner display type and an outer display type.</p>
+    <hr>
+    <h2 class="font-family-title font-size-subtitle center">Organizing your CSS</h2>
+    <p class="font-family-text font-size-regular">As you start to work on larger stylesheets and big projects you will
+      discover that maintaining a huge CSS file can be challenging.</p>
+    <p class="font-family-text font-size-regular">If you are working with a team on an existing project, the first thing
+      to check is whether the project has an existing style guide for CSS. The team style guide should always win over
+      your own personal preferences. There often isn't a right or wrong way to do things, but consistency is important.
+    </p>
+    <p class="font-family-text font-size-regular">Adding comments to your CSS will help any future developer work with
+      your CSS file, but will also help you when you come back to the project after a break.</p>
+    <hr>
+    <p><a href="#top-index" class="font-family-text font-size-regular">Back to top</a></p>
+  </main>
+  <main>
+    <h2 id="js-index" class="font-family-title font-size-subtitle center">Fundamentals of JavaScript</h2>
+    <p class="font-family-text font-size-regular">JavaScript (JS) is a lightweight interpreted (or just-in-time
+      compiled) programming language with first-class functions. While it is most well-known as the scripting language
+      for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+      JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented,
+      imperative, and declarative (e.g. functional programming) styles.</p>
+    <p class="font-family-text font-size-regular">JavaScript's dynamic capabilities include runtime object construction,
+      variable parameter lists, function variables, dynamic script creation, object introspection, and source-code
+      recovery.</p>
+    <hr>
+    <p><a href="#top-index" class="font-family-text font-size-regular">Back to top</a></p>
+  </main>
+  <footer>
+    <div class="footer font-family-text font-size-footer">
+      <ul>
+        <li>Site Version 1.0 01/2024 by DjSurgeon</li><br>
+        <li>All images used were generated by Microsoft Bing's AI</li>
+      </ul>
+      <ul class="footer-media">
+        <li><a href="https://www.codecademy.com/profiles/DjSurgeonDEV" target="_blank"><img
+              src="codecademy_logo_icon_167734.png" alt="Codecademy Logo"></a></li>
+        <li><a href="https://github.com/DjSurgeon" target="_blank"><img src="logo_github_icon_143196.png"
+              alt="Git Hub Logo"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
